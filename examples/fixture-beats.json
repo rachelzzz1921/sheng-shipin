@@ -1,0 +1,31 @@
+{
+  "id": "gate-fixture",
+  "title": "闸门测试，不是成片",
+  "duration_s": 6,
+  "source": "fixture",
+  "life_guide": [],
+  "insight": "只用来确认未通过时不会出 MP4",
+  "ending": "sharp",
+  "beats": [
+    {
+      "id": "b01",
+      "start_s": 0,
+      "end_s": 3,
+      "subtitle": "测试",
+      "action": "剪影站在几何块上",
+      "style_id": "12_bauhaus",
+      "motion": "kinetic-type",
+      "reversal": false
+    },
+    {
+      "id": "b02",
+      "start_s": 3,
+      "end_s": 6,
+      "subtitle": "拉开",
+      "action": "镜头拉远，看见剪影站在更大的结构上",
+      "style_id": "22_constructivism",
+      "motion": "pull-back",
+      "reversal": true
+    }
+  ]
+}
