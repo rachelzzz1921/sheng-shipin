@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Rachel 静帧闸门。
+"""生视频静帧闸门。
 
 未写入 reviews/<id>/APPROVED 时，拒绝整段 MP4。
 静帧只调用花叔 render.py 的 --stills。
@@ -35,7 +35,7 @@ STYLES = {
 
 
 def python_with_playwright() -> str | None:
-    candidates = [os.environ.get("RACHEL_PYTHON"), sys.executable]
+    candidates = [os.environ.get("SHENGSHIPIN_PYTHON"), sys.executable]
     home = Path.home()
     candidates.extend(str(path) for path in home.glob(".local/share/*/.venv/bin/python"))
     candidates.extend(str(path) for path in home.glob(".local/share/*/*/.venv/bin/python"))
